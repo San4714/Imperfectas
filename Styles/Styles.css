@@ -358,26 +358,7 @@ nav {
     text-align: center;
 }
 
-
-
-
-
-@media screen and (max-width: 648px) {
-    
-    .pantalones {
-        grid-template-columns: 1fr;
-    }
-    .estaciones {
-        flex-direction: column;
-        align-items: center;
-    }
-    .fondo {
-        flex-direction: column;
-        align-items: center;
-    }    
-    
-}
-/* no queda bien
+   
 @media screen and (max-width: 768px)  {
     .logo {
         display: none;
@@ -390,4 +371,4 @@ nav {
         flex-direction:column;
     }
 }
-*/   
+ 
