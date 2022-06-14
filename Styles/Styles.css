@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cookie&family=Courgette&family=Dancing+Script&family=Grape+Nuts&family=Great+Vibes&family=Indie+Flower&family=Satisfy&family=Spline+Sans+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cookie&family=Courgette&family=Dancing+Script&family=Grape+Nuts&family=Great+Vibes&family=Indie+Flower&family=Montserrat:wght@100&family=Playfair+Display:ital@1&family=Roboto+Mono:wght@100&family=Satisfy&family=Spline+Sans+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Cookie&family=Courgette&family=Dancing+Script&family=Grape+Nuts&family=Great+Vibes&family=Indie+Flower&family=Montserrat:wght@100&family=PT+Serif&family=Playfair+Display:ital@1&family=Roboto+Mono:wght@100&family=Satisfy&family=Shadows+Into+Light&family=Spline+Sans+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tituloheader {
+    color: #ffffff;
+    font-family: 'Spline Sans Mono', monospace;
+    background-color: #457b9d;
+    padding-block: 5px;
+    animation: mymove 5s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tituloheader img {
+    max-height: 25px;
+}
+
+@keyframes mymove {
+    25% {background-color: #457b9d;}
+    50% {background-color:#48cae4;}
+    100%{background-color:#cdb4db;}
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+.fondo {
+    background-image: url("../Logos/cuadrado.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 650px;
+    height: 449px;
+    
+
+}
+
+
+.fondoContacto {
+    background-image: url("../Logos/cuadrado.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    height: 400px;
+}
+.fondoQuienes {
+    background-image: url("../Logos/redondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    height: 700px;
+}
+
+
+.temporadas {
+    text-align: center;
+    color: #168aad;
+    background-color: blanchedalmond;  
+    margin: 0px;
+    padding: 5px;
+    font-size: 50px;
+}
+
+h4, p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.encabezados {
+    text-align: center;
+    font-size: 40px;
+    color: #168aad;
+    background-color: blanchedalmond;  
+    margin: 0px;
+    padding: 10px;
+}  
+
+.pantalones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 25px;
+}
+
+.fotosPantalones {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: flex-start;
+    transition: transform 0.2s;
+    gap: 5px;
+}
+
+.fotosPantalones:hover {
+    transform: scale(1.05);
+}
+
+.divimg {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.divimg img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.pantalon__boton {
+    border: 0;
+    background-color: #3da4b8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.estaciones {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.estaciones__item {
+    padding: 15px 57px;
+    font-size: 20px;
+    color: #3da4b8;
+}
+
+.filas {
+    box-shadow: 0px 0px 15px black;
+
+}
+
+
+.iconoWhatsapp {
+    width: 60px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.solo2fotos {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.solo2fotos img {
+    box-shadow: 0px 0px 15px black;
+}
+
+.foto__principal {
+    box-shadow: 0px 0px 15px black;
+
+}
+
+.solo2fotos p {
+    text-align: center;
+    background-image: url('../Images/2flores.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 300px;
+}
+
+
+.tabla {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.tablaPromociones td {
+    padding: 10px 30px;
+    border: 1px solid #ece4e4;
+}
+
+.tablaPromociones thead {
+    background-color: #48cae4 ;
+}
+
+.tablaPromociones thead td {
+    border: #48cae4;
+}
+
+
+
+
+.formu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+
+.formContacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+.formContacto div {
+    display: flex;
+}
+
+.formContacto div label {
+    width: 100px;
+    display: inline-block; 
+    align-items: center;
+    
+}
+
+.formContacto .paraQuienEs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formContacto .paraQuienEs label {
+    width: auto;
+}
+
+.formContacto div input, .formContacto div textarea {
+    padding: 0px 7px;
+    border-radius: 5px;
+    border: 1px solid #48cae4;
+}
+.fondoContacto div textarea {
+    height: 100px;
+    padding: 10px;
+    
+}
+
+.botonEnviar {
+    border: 0;
+    background-color: #48cae4;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+
+.localidad {
+    border: 0px;
+    background-color: #48cae4;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+
+.fondoRedondo {
+    background-image: url("../Logos/cuadrado.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 650px;
+    text-align: center;
+    height: 430px;
+}
+
+.menuylogo {
+    display: flex;
+    height: 100px;
+}
+
+.logo_container {
+    display: grid;
+    place-items: center;
+    padding-inline: 20px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.listas {
+    list-style: none;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu__item {
+    display: grid;
+    place-items: center;
+}
+
+.menu__item a {
+    color: #168aad;
+    font-size: 18px;
+}
+
+.menu__item a:hover {
+    text-decoration: underline;
+}
+
+.piedepagina {
+    background-color: #168aad;
+    padding-block: 20px;
+    margin-top: 30px;
+}
+
+.piedepagina a,
+.piedepagina p {
+    color: white;
+}
+
+.quienesSomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 200px;
+}
+
+.quienesSomos img {
+    width: 400px;
+}
+
+.quienesSomos p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 648px) {
+    
+    .pantalones {
+        grid-template-columns: 1fr;
+    }
+    .estaciones {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fondo {
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+}
+/*
+@media screen and (max-width: 768px)  {
+    .logo {
+        display: none;
+    }
+    .tituloheader {
+        display: none;
+    }
+    .listas {
+        display: flex;
+        flex-direction:column;
+    }
+}
+*/   

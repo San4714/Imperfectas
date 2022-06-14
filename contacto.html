@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./Styles/Styles.css">
+</head>
+<body>
+    <header>
+        <div class="tituloheader">
+            <p>Todos los medios de pago</p>
+            <img src="./Images/visa.png">
+            <img src="./Images/mastercard.png">
+            <img src="./Images/Maestro_logo.png">
+            <img src="./Images/version-horizontal-large-logo-mercado-pago (1).webp">
+        </div>
+        <div class="menuylogo">
+            <div class="logo_container">
+                <img class="logo" src="./Logos/cuadrado.jpg">
+            </div>
+            <nav>
+                <ul class="listas">
+                    <li class="menu__item inicio"><a href="./Index.html">Inicio</a></li>
+                    <li class="menu__item galeria"><a href="./galeria.html">Galeria</a></li>
+                    <li class="menu__item promos"><a href="./promociones.html">Promociones</a></li>
+                    <li class="menu__item contacto"><a href="./contacto.html">Contacto</a></li>
+                    <li class="menu__item quienes"><a href="./quienes somos.html">Quienes somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="encabezados">Contacto</h1>
+    <section class="formu">
+        <form class="formContacto">
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="name" name="Nombre">
+            </div>
+            <div>
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="Apellido" name="Apellido">
+            </div>
+            <div>
+                <label for="Email">E-mail</label>
+                <input type="email" id="Email" name="E-mail">
+            </div>
+            <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="Mensaje" name="Mensaje"></textarea>
+            </div>
+            <div class="paraQuienEs">
+                <label>
+                   <b>Para quien es?</b>
+                </label>
+                <div>
+                    <span>Para mi</span>
+                    <input type="radio" name="Destino" />
+                </div>
+                <div>
+                    <span>Para regalar</span>
+                    <input type="radio" name="Destino" />
+                </div>
+            </div>
+            <select class="localidad">
+                 <option selected="selected">Selecciona una localidad</option>
+                 <option>Buenos Aires</option>
+                 <option>Caba</option>
+                 <option>Catamarca</option>
+                 <option>Chaco</option>
+                 <option>Chubut</option>
+                 <option>Cordoba</option>
+                 <option>Corrientes</option>
+                 <option>Entre Rios</option>
+                 <option>Formosa</option>
+                 <option>Jujuy</option>
+                 <option>La Pampa</option>
+                 <option>La Rioja</option>
+                 <option>Mendoza</option>
+                 <option>Misiones</option>
+                 <option>Neuquen</option>
+                 <option>Rio Negro</option>
+                 <option>Salta</option>
+                 <option>San Juan</option>
+                 <option>San Luis</option>
+                 <option>Santa Cruz</option>
+                 <option>Santa Fe</option>
+                 <option>Santiago del Estero</option>
+                 <option>Tucuman</option>
+
+            </select>
+                 <input class="botonEnviar" type="submit" value="Enviar formulario">
+        </form>
+    </section> 
+    <footer class="piedepagina">
+        <a class="insta" href="https://www.instagram.com/imperfectas_indumentaria/">Seguinos en INSTAGRAM</a>
+        <p>Indumentaria perfecta para Mujeres Imperfectas-Copyright 2022</p>
+    </footer>
+    <a href="https://wa.me/541122465823">
+        <img class="iconoWhatsapp" src="./Logos/iconowhatsapp.png">
+    </a>
+</body>
+</html>
