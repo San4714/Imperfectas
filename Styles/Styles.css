@@ -32,6 +32,9 @@ a {
 .tituloheader img {
     max-height: 25px;
 }
+.tituloheader p {
+    margin-bottom: 0;
+}
 
 @keyframes mymove {
     25% {background-color: #457b9d;}
@@ -39,10 +42,15 @@ a {
     100%{background-color:#cdb4db;}
 }
 
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+}
 footer {
     text-align: center;
 }
-/*
+
 
 
 .fondo {
@@ -297,7 +305,7 @@ h4, p {
     text-align: center;
     height: 430px;
 }
-
+/*
 .menuylogo {
     display: flex;
     height: 100px;
@@ -308,10 +316,12 @@ h4, p {
     place-items: center;
     padding-inline: 20px;
 }
-
+*/
 .logo {
     max-width: 200px;
 }
+
+
 /*
 nav {
     flex-grow: 1;
@@ -339,7 +349,7 @@ nav {
 .menu__item a:hover {
     text-decoration: underline;
 }
-
+*/
 .piedepagina {
     background-color: #168aad;
     padding-block: 20px;
@@ -366,7 +376,7 @@ nav {
     flex-grow: 1;
     text-align: center;
 }
-*/
+
  
 
 
