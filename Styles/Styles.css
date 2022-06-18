@@ -42,7 +42,7 @@ a {
 footer {
     text-align: center;
 }
-
+/*
 
 
 .fondo {
@@ -297,7 +297,7 @@ h4, p {
     text-align: center;
     height: 430px;
 }
-
+*/
 .menuylogo {
     display: flex;
     height: 100px;
@@ -312,12 +312,12 @@ h4, p {
 .logo {
     max-width: 200px;
 }
-
+/*
 nav {
     flex-grow: 1;
 }
 
-/*
+
 .listas {
     list-style: none;
     height: 100%;
@@ -339,7 +339,7 @@ nav {
 .menu__item a:hover {
     text-decoration: underline;
 }
-*/
+
 .piedepagina {
     background-color: #168aad;
     padding-block: 20px;
@@ -366,7 +366,7 @@ nav {
     flex-grow: 1;
     text-align: center;
 }
-
+*/
  
 
 
@@ -420,3 +420,6 @@ nav {
 
 }
  
+
+
+
