@@ -25,7 +25,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="./galeria.html">Galeria</a></li>
+              <li class="nav-item"><a class="nav-link active" href="./galeria.html">Galeria</a></li>
               <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
               <li class="nav-item"><a class="nav-link" href="./quienes somos.html">Quienes somos</a></li>
             </ul>
@@ -34,49 +34,47 @@
       </nav>
     <h1 class="encabezados">Colecciones</h1>
              <section>
+                <!--
                  <div>
+                    
                     <ul class="estaciones">
                         <li class="estaciones__item"><h2>Verano</h2></li>
                         <li class="estaciones__item"><h2>Invierno</h2></li>
                         <li class="estaciones__item"><h2>Outfit</h2></li>
                     </ul>
-                 </div> 
-             </section>
-             <div class="filas">
-                <section class="pantalones">
-                       <div class="fotosPantalones">
-                            <div class="divimg">
-                                <img class="pantalon1" src="./Images/faldarayon.jpeg"> 
+                 </div>
+                 --> 
+                 <div class="container fotos">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="foto__1">
+                                    <img src="./Images/sacomilagros.jpeg" class="card-img-top" alt="fotos">
+                                    <div class="card-body">
+                                      <h5 class="card-title">INVIERNO</h5>
+                                      <a href="./fotos.html" class="btn btn-primary">Galeria</a>
+                                    </div>
+                                  </div>
                             </div>
-                          <h4>Falda</h4>
-                          <p class="pantalon__description">Falda larga de Rayón</p>
-                          <button class="pantalon__boton">Ver mas</button>
-                       </div>
-                       <div class="fotosPantalones">
-                            <div class="divimg">
-                                <img class="pantalonVerde" src="./Images/pantalonmia.jpeg"> 
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="./Images/pantalonmia.jpeg" class="card-img-top" alt="fotos">
+                                    <div class="card-body">
+                                      <h5 class="card-title">VERANO</h5>
+                                      <a href="./fotos.html" class="btn btn-primary">Galeria</a>
+                                    </div>
+                                  </div>
                             </div>
-                          <h4>Pantalon</h4>
-                          <p class="pantalon__description">Pantalon de Lino rustico</p>
-                          <button class="pantalon__boton">Ver mas</button>
-                       </div>
-                       <div class="fotosPantalones">
-                        <div class="divimg">
-                            <img class="pantalonOxford" src="./Images/swetermilo.jpeg"> 
-                        </div>
-                          <h4>Sweater</h4>
-                          <p class="pantalon__description">Sweater Milo Rosado</p>
-                          <button class="pantalon__boton">Ver mas</button>
-                       </div>
-                       <div class="fotosPantalones">
-                            <div class="divimg">
-                                <img class="pantalonClasico" src="./Images/maxissweter.jpeg"> 
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="./Images/faldarayon.jpeg" class="card-img-top" alt="fotos">
+                                    <div class="card-body">
+                                      <h5 class="card-title">OUTFIT</h5>
+                                      <a href="./fotos.html" class="btn btn-primary">Galeria</a>
+                                    </div>
+                                  </div>
                             </div>
-                          <h4>Sweater</h4>
-                          <p class="pantalon__description">Maxi Sweater liviano</p>
-                          <button class="pantalon__boton">Ver mas</button>
-                       </div> 
-                </section>
+                        </div>  
+                  </div>
             </div>
             <footer class="piedepagina">
                 <a class="insta" href="https://www.instagram.com/imperfectas_indumentaria/" target="_blank">Seguinos en INSTAGRAM</a>
@@ -85,5 +83,6 @@
            <a href="https://wa.me/541122465823" target="_blank">
         <img class="iconoWhatsapp" src="./Logos/iconowhatsapp.png">
     </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html> 
