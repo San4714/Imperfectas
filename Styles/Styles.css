@@ -151,10 +151,11 @@ h4, p {
     cursor: pointer;
 }
 
-.fotosMuestra {
-    
-}
 
+.fotosMuestra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .fotosGaleria {
     overflow: hidden;
@@ -162,6 +163,7 @@ h4, p {
     border-radius: 5px;
     padding: 20px 20px 20px 20px;
     max-width: 50rm;
+    margin-top: 50px;
 }
 
 /*
@@ -321,6 +323,8 @@ h4, p {
     text-align: center;
     height: 430px;
 }
+
+
 /*
 .menuylogo {
     display: flex;
