@@ -152,10 +152,6 @@ h4, p {
 }
 
 
-.fotosMuestra {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .fotosGaleria {
     overflow: hidden;
@@ -166,6 +162,26 @@ h4, p {
     margin-top: 50px;
 }
 
+.muestra img {
+    max-width: 100%;
+    box-shadow: 0px 0px 15px #616161;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+.muestra img:hover {
+    transform: scale(1.05);
+}
+
+.fotosMuestra > .row {
+    margin-block: 60px;
+}
+
+.cardImagen {
+    max-height: 400px;
+    overflow: hidden;
+}
 /*
 .estaciones {
     list-style: none;
