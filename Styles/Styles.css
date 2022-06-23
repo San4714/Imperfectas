@@ -182,28 +182,7 @@ h4, p {
     max-height: 400px;
     overflow: hidden;
 }
-/*
-.estaciones {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    gap: 140px;
-}
 
-.estaciones__item {
-    padding: 15px 57px;
-    font-size: 20px;
-}
-
-.estaciones__item a {
-    color: #3da4b8;
-    transition: color 0.3s;
-}
-
-.estaciones__item a:hover {
-    color: #0c4a57;
-}
-*/
 .iconoWhatsapp {
     width: 60px;
     position: fixed;
@@ -218,27 +197,31 @@ h4, p {
     align-items: center;
     gap: 20px;
 }
-.solo2fotos img {
+
+
+.foto__chicas {
     box-shadow: 0px 0px 15px black;
     max-width: 100%;
-
 }
 
-.foto__principal {
-    box-shadow: 0px 0px 15px black;
-    max-width: 100%;
-
-
-}
-
-.solo2fotos p {
+.fondoTexto {
     text-align: center;
     background-image: url('../Images/2flores.png');
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center center;
-    max-width: 300px;
 }
+
+.foto__vestidos {
+    box-shadow: 0px 0px 15px black;
+    max-width: 100%;
+}
+
+
+.foto__principal {
+    box-shadow: 0px 0px 15px black;
+}
+
 
 
 .tabla {
@@ -249,86 +232,16 @@ h4, p {
     padding: 60px 0px;
 }
 
-/*.tablaPromociones td {
-    padding: 10px 30px;
-    border: 1px solid #ece4e4;
-}
-
-.tablaPromociones thead {
-    background-color: #48cae4 ;
-}
-
-.tablaPromociones thead td {
-    border: #48cae4;
-}
-*/
 
 
-
-.formu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0px;
-}
-
-
-.formContacto {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 300px;
-    gap: 20px;
-}
-
-.formContacto div {
-    display: flex;
-}
-
-.formContacto div label {
-    width: 100px;
-    display: inline-block; 
-    align-items: center;
-    
-}
-
-.formContacto .paraQuienEs {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.formContacto .paraQuienEs label {
-    width: auto;
-}
-
-.formContacto div input, .formContacto div textarea {
-    padding: 0px 7px;
-    border-radius: 5px;
-    border: 1px solid #48cae4;
-}
 .fondoContacto div textarea {
     height: 100px;
     padding: 10px;
     
 }
 
-.botonEnviar {
-    border: 0;
-    background-color: #48cae4;
-    cursor: pointer;
-    color: #ffffff;
-    padding: 7px 10px;
-    border-radius: 8px;
-}
 
-.localidad {
-    border: 0px;
-    background-color: #48cae4;
-    color: #ffffff;
-    padding: 7px 10px;
-    border-radius: 8px;
-}
+
 
 .fondoRedondo {
     background-image: url("../Logos/cuadrado.jpg");
@@ -341,51 +254,13 @@ h4, p {
 }
 
 
-/*
-.menuylogo {
-    display: flex;
-    height: 100px;
-}
 
-.logo_container {
-    display: grid;
-    place-items: center;
-    padding-inline: 20px;
-}
-*/
 .logo {
     max-width: 200px;
 }
 
 
-/*
-nav {
-    flex-grow: 1;
-}
 
-
-.listas {
-    list-style: none;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.menu__item {
-    display: grid;
-    place-items: center;
-}
-
-.menu__item a {
-    color: #168aad;
-    font-size: 18px;
-}
-
-.menu__item a:hover {
-    text-decoration: underline;
-}
-*/
 .piedepagina {
     background-color: #168aad;
     padding-block: 20px;
@@ -397,24 +272,11 @@ nav {
     color: white;
 }
 
-.quienesSomos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-inline: 200px;
-}
-
-.quienesSomos img {
-    width: 400px;
-}
-
-.quienesSomos p {
-    flex-grow: 1;
-    text-align: center;
-}
 
  
-
+.insta {
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width: 768px)  {
@@ -436,9 +298,6 @@ nav {
         grid-template-columns: 1fr;
     }
 
-    .solo2fotos {
-        flex-direction: column;
-    }
 
     .tablaPromociones {
         max-width: 100%;
@@ -448,10 +307,6 @@ nav {
         padding: 5px;
     }
 
-    .quienesSomos {
-        flex-direction: column;
-        padding: 50px;
-    }
 
     .estaciones__item {
         padding: 0;

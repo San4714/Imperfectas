@@ -33,70 +33,81 @@
         </div>
       </nav>
     <h1 class="encabezados">Contacto</h1>
-    <section class="formu">
-        <form class="formContacto">
-            <div>
-                <label for="Nombre">Nombre</label>
-                <input type="text" id="name" name="Nombre">
-            </div>
-            <div>
-                <label for="Apellido">Apellido</label>
-                <input type="text" id="Apellido" name="Apellido">
-            </div>
-            <div>
-                <label for="Email">E-mail</label>
-                <input type="email" id="Email" name="E-mail">
-            </div>
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <textarea id="Mensaje" name="Mensaje"></textarea>
-            </div>
-            <div class="paraQuienEs">
-                <label>
-                   <b>Para quien es?</b>
-                </label>
-                <div>
-                    <span>Para mi</span>
-                    <input type="radio" name="Destino" />
-                </div>
-                <div>
-                    <span>Para regalar</span>
-                    <input type="radio" name="Destino" />
-                </div>
-            </div>
-            <select class="localidad">
-                 <option selected="selected">Selecciona una localidad</option>
-                 <option>Buenos Aires</option>
-                 <option>Caba</option>
-                 <option>Catamarca</option>
-                 <option>Chaco</option>
-                 <option>Chubut</option>
-                 <option>Cordoba</option>
-                 <option>Corrientes</option>
-                 <option>Entre Rios</option>
-                 <option>Formosa</option>
-                 <option>Jujuy</option>
-                 <option>La Pampa</option>
-                 <option>La Rioja</option>
-                 <option>Mendoza</option>
-                 <option>Misiones</option>
-                 <option>Neuquen</option>
-                 <option>Rio Negro</option>
-                 <option>Salta</option>
-                 <option>San Juan</option>
-                 <option>San Luis</option>
-                 <option>Santa Cruz</option>
-                 <option>Santa Fe</option>
-                 <option>Santiago del Estero</option>
-                 <option>Tucuman</option>
 
-            </select>
-                 <input class="botonEnviar" type="submit" value="Enviar formulario">
-        </form>
-    </section>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre...">
+                    </div>
+
+                    <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Telefono de contacto</label>
+                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su telefono...">
+                    </div>
+
+                    <div class="mb-3">
+                         <label for="exampleFormControlInput1" class="form-label">Email</label>
+                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su correo electronico...">
+                    </div>
+
+                    <div class="mb-3">
+                         <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                        <h6>Para quién es?</h6>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                 <label class="form-check-label" for="flexRadioDefault1">
+                                    Para mi
+                                 </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Para regalar
+                                </label>
+                        </div>
+
+                        <select class="form-select mt-3 mb-3" aria-label="Default select example">
+                            <option selected>Localidad</option>
+                            <option value="1">Buenoas Aires</option>
+                            <option value="2">Ciudad Autonoma de Buenos Aires</option>
+                            <option value="3">Catamarca</option>
+                            <option value="4">Chaco</option>
+                            <option value="5">Chubut</option>
+                            <option value="6">Córdoba</option>
+                            <option value="7">Corrientes</option>
+                            <option value="8">Entre Ríos</option>
+                            <option value="9">Formosa</option>
+                            <option value="10">Jujuy</option>
+                            <option value="11">La Pampa</option>
+                            <option value="12">La Rioja</option>
+                            <option value="13">Mendoza</option>
+                            <option value="14">Misiones</option>
+                            <option value="15">Neuquén</option>
+                            <option value="16">Río Negro</option>
+                            <option value="17">Salta</option>
+                            <option value="18">San Juan</option>
+                            <option value="19">San Luis</option>
+                            <option value="20">Santa Cruz</option>
+                            <option value="21">Santa Fe</option>
+                            <option value="22">Santiago del Estero</option>
+                            <option value="23">Tierra del Fuego, Antartida e Islas del Atlántico Sur</option>
+                            <option value="24">Tucumán</option>
+                          </select>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>
+    </div>
     <footer class="piedepagina">
         <a class="insta" href="https://www.instagram.com/imperfectas_indumentaria/" target="_blank">Seguinos en INSTAGRAM</a>
-        <p>Indumentaria perfecta para Mujeres Imperfectas-Copyright 2022</p>
+        <p>Indumentaria perfecta para Mujeres Imperfectas-Copyright 2022 - By Coderhouse.</p>
     </footer>
     <a href="https://wa.me/541122465823" target="_blank">
         <img class="iconoWhatsapp" src="./Logos/iconowhatsapp.png">
