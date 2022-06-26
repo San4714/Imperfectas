@@ -1,0 +1,48 @@
+
+
+.tituloheader {
+    color: $blanco;
+    font-family: 'Spline Sans Mono', monospace;
+    background-color: $azulClaro;
+    padding-block: 5px;
+    animation: mymove 5s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    img {
+        max-height: 25px;
+    }
+}
+
+
+.navbar {
+    
+    .navbar-nav {
+        width: 100%;
+        justify-content: space-around;
+
+        .active {
+            font-weight: 600;
+        }         
+    }
+    
+    .logo {
+        max-width: 200px;
+    }
+}
+
+
+.encabezados {
+    text-align: center;
+    font-size: 40px;
+    color: $azulOscuro;
+    background-color: $encabezados;  
+    margin: 0px;
+    padding: 10px;
+} 
