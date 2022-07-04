@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-a {
+a, .piedepagina p {
   text-decoration: none;
 }
 
@@ -98,6 +98,13 @@ p {
 }
 .piedepagina a, .piedepagina p {
   color: white;
+}
+i.fa-instagram {
+  color: rgb(211, 33, 143);
+}
+
+i.fa-whatsapp {
+  color: rgb(26, 189, 51);
 }
 
 @media screen and (max-width: 768px) {
